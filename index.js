@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
-import connect from '../backend/db.js';
+import connect from "./db.js";
 import router from './routes/route.js';
 import 'dotenv/config'
 
